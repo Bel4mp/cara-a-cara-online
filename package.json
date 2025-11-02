@@ -1,0 +1,16 @@
+{
+  "name": "cara-a-cara-online",
+  "version": "1.0.0",
+  "description": "Jogo 'Cara a Cara' online (2 jogadores por código de sala) com Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
